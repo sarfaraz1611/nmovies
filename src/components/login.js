@@ -6,7 +6,7 @@ import styled from 'styled-components'
         <Content>
              <Cta>
                 <CtalogoOne src='/images/cta-logo-one.vg' alt=""/>
-                <SignUp> create an account</SignUp>
+                <SignUp> Create an account</SignUp>
                 <Description>Here you can watch all latest movies &  trailer and Series  </Description>
                 <Ctalogotwo src='/images/cta-logo-two.png' alt="" /> 
             </Cta>
