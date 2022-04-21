@@ -3,6 +3,7 @@ import ImgSlider from "./imgSlider";
 import NewDisney from "./NewDisney";
 import Orginals from "./Originals";
 import Recommends from "./Recommends";
+import Simple from "./simple";
 import Viewers from "./Viewers";
 
 
@@ -14,6 +15,7 @@ return(
     <Recommends />
     <NewDisney />
     <Orginals />
+    <Simple />
 </Container>
 );
 };

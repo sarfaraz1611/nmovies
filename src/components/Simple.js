@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const Orginals = (props) => {
+const Simple = (props) => {
 
   return (
     <Container>
-      <h4>hello</h4>
+      <h4>welcome</h4>
       <Content>
          
             <Wrap >
@@ -81,4 +81,4 @@ const Wrap = styled.div`
   }
 `;
 
-export default Orginals;
+export default Simple;
