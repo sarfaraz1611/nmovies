@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+// import { Trending } from "@reduxjs/toolkit";
 
-const Simple = (props) => {
+const Trending = (props) => {
 
   return (
     <Container>
-      <h4>welcome</h4>
+      <h4>Recommended for You</h4>
       <Content>
          
             <Wrap >
@@ -81,4 +82,4 @@ const Wrap = styled.div`
   }
 `;
 
-export default Simple;
+export default Trending;

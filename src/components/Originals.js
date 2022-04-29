@@ -1,37 +1,38 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+// import { Original } from "@reduxjs/toolkit";
 
-const Orginals = (props) => {
+const Original = (props) => {
 
   return (
     <Container>
-      <h4>hello</h4>
+      <h4>Recommended for You</h4>
       <Content>
          
-            <Wrap >
+      <Wrap >
       
-              <Link to='/'>
-              <img src="/images/unsplash.jpg" alt="" />
-              </Link>
-            </Wrap>
-            <Wrap >
-      
-            <Link to='/'>
-            <img src="/images/unsplash.jpg" alt="" />
-            </Link>
-          </Wrap>
-          <Wrap >
-      
-          <Link to='/'>
-          <img src="/images/unsplash.jpg" alt="" />
-          </Link>
-        </Wrap>
-        <Wrap >
-      
-        <Link to='/'>
-        <img src="/images/unsplash.jpg" alt="" />
-        </Link>
-      </Wrap>
+      <Link to='/'>
+      <img src="/images/unsplash.jpg" alt="" />
+      </Link>
+    </Wrap>
+    <Wrap >
+
+    <Link to='/'>
+    <img src="/images/unsplash.jpg" alt="" />
+    </Link>
+  </Wrap>
+  <Wrap >
+
+  <Link to='/'>
+  <img src="/images/unsplash.jpg" alt="" />
+  </Link>
+</Wrap>
+<Wrap >
+
+<Link to='/'>
+<img src="/images/unsplash.jpg" alt="" />
+</Link>
+</Wrap>
      
           
       </Content>
@@ -81,4 +82,4 @@ const Wrap = styled.div`
   }
 `;
 
-export default Orginals;
+export default Original;

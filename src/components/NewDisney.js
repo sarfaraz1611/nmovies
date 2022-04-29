@@ -5,7 +5,7 @@ const NewDisney = (props) => {
 
   return (
     <Container>
-      <h4>welcome</h4>
+      <h4>Recommended for You</h4>
       <Content>
          
             <Wrap >
